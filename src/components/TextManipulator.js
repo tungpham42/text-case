@@ -149,7 +149,7 @@ const TextManipulator = () => {
                 <Button
                   variant="primary"
                   onClick={toUpperCase}
-                  className="d-flex flex-column h-100 w-100"
+                  className="d-flex flex-column h-100 w-100 align-items-center"
                 >
                   <FontAwesomeIcon icon={faArrowUp} />
                   {t.uppercase}
@@ -159,7 +159,7 @@ const TextManipulator = () => {
                 <Button
                   variant="primary"
                   onClick={toLowerCase}
-                  className="d-flex flex-column h-100 w-100"
+                  className="d-flex flex-column h-100 w-100 align-items-center"
                 >
                   <FontAwesomeIcon icon={faArrowDown} />
                   {t.lowercase}
@@ -169,7 +169,7 @@ const TextManipulator = () => {
                 <Button
                   variant="primary"
                   onClick={toTitleCase}
-                  className="d-flex flex-column h-100 w-100"
+                  className="d-flex flex-column h-100 w-100 align-items-center"
                 >
                   <FontAwesomeIcon icon={faHeading} />
                   {t.titleCase}
@@ -179,7 +179,7 @@ const TextManipulator = () => {
                 <Button
                   variant="primary"
                   onClick={toSentenceCase}
-                  className="d-flex flex-column h-100 w-100"
+                  className="d-flex flex-column h-100 w-100 align-items-center"
                 >
                   <FontAwesomeIcon icon={faParagraph} />
                   {t.sentenceCase}
@@ -189,7 +189,7 @@ const TextManipulator = () => {
                 <Button
                   variant="primary"
                   onClick={toCamelCase}
-                  className="d-flex flex-column h-100 w-100"
+                  className="d-flex flex-column h-100 w-100 align-items-center"
                 >
                   <FontAwesomeIcon icon={faCode} />
                   {t.camelCase}
@@ -199,7 +199,7 @@ const TextManipulator = () => {
                 <Button
                   variant="primary"
                   onClick={toSnakeCase}
-                  className="d-flex flex-column h-100 w-100"
+                  className="d-flex flex-column h-100 w-100 align-items-center"
                 >
                   <FontAwesomeIcon icon={faUnderline} />
                   {t.snakeCase}
@@ -209,7 +209,7 @@ const TextManipulator = () => {
                 <Button
                   variant="primary"
                   onClick={reverseText}
-                  className="d-flex flex-column h-100 w-100"
+                  className="d-flex flex-column h-100 w-100 align-items-center"
                 >
                   <FontAwesomeIcon icon={faBackward} />
                   {t.reverseText}
@@ -219,7 +219,7 @@ const TextManipulator = () => {
                 <Button
                   variant="danger"
                   onClick={clearText}
-                  className="d-flex flex-column h-100 w-100"
+                  className="d-flex flex-column h-100 w-100 align-items-center"
                 >
                   <FontAwesomeIcon icon={faTrash} />
                   {t.clearText}
